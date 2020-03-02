@@ -1,4 +1,4 @@
-# Author                 :  Mohammad Noor Ul hasan
+# Author                 :  Nikita Malviya
 # Start Date             :  13/Feb/19
 
 # Dependencies(Modules ) :  Tkinter -> to create interface

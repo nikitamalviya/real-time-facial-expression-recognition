@@ -1,4 +1,4 @@
-# Author                 :  Mohammad Noor
+# Author                 :  Nikita Malviya
 # Start Date             :  13/Feb/19
 
 # Dependencies(Modules ) :  cv2
@@ -8,6 +8,7 @@
 
 import cv2
 import numpy as np
+
 def preprocess_image(image, scaling = True):
     image = image.astype('float32')
     image = image / 255.0

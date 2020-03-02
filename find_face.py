@@ -1,4 +1,4 @@
-# Author                 :  Mohammad Noor
+# Author                 :  Nikita Malviya
 # Start Date             :  13/Feb/19
 
 # Dependencies(Modules ) :  cv2
