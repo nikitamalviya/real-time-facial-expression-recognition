@@ -1,12 +1,12 @@
 ## Description
 This project detects the emotions in `real time`. It covers the following emotions :
-- Happy
-- Sad
-- Neutral
-- Anger
-- Surprise
-- Fear
-- Disgust
+* Happy
+* Sad
+* Neutral
+* Anger
+* Surprise
+* Fear
+* Disgust
 
 ## Requirements
 Execute the following commands :
@@ -18,4 +18,4 @@ Execute the following commands :
 
 ## Application interface
 
-![UI](image/home/screenshots/home.png)
+![UI](/image/screenshots/home.png)
