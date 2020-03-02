@@ -15,3 +15,7 @@ Execute the following commands :
 
 ## Execute the code
 `python3 app.py`
+
+## Application interface
+
+![UI](image/home/screenshots/home.png)
