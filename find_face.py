@@ -23,7 +23,7 @@ def find_face(img):
         y -= 2
         w += 4
         h += 4
-        cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+        cv2.rectangle(img,(x,y),(x+w+5,y+h+5), (38,211,239),5)
 
     # convert BGR image to RGB for plotting
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
