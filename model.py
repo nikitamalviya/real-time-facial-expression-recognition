@@ -7,20 +7,13 @@
 # 							numpy
 # Last Edited            :  10/Apr/19
 
-from keras.callbacks import CSVLogger, ModelCheckpoint, EarlyStopping
-from keras.callbacks import ReduceLROnPlateau
+from keras.callbacks import CSVLogger, ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
 from keras.preprocessing.image import ImageDataGenerator
 from sklearn.model_selection import train_test_split
-from keras.layers import Activation, Convolution2D, Dropout, Conv2D
-from keras.layers import AveragePooling2D, BatchNormalization
-from keras.layers import GlobalAveragePooling2D
-from keras.models import Sequential
-from keras.layers import Flatten
-from keras.models import Model
-from keras.layers import Input
-from keras.layers import MaxPooling2D
-from keras.layers import SeparableConv2D
 from keras import layers
+from keras.layers import Activation, Convolution2D, Dropout, Conv2D, AveragePooling2D, BatchNormalization, GlobalAveragePooling2D, Flatten, Input  
+from keras.models import Sequential, Model
+from keras.layers import MaxPooling2D, SeparableConv2D
 from keras.regularizers import l2
 import pandas as pd
 import cv2
