@@ -15,6 +15,7 @@ Execute the following commands :
 
 ## Execute the code
 `python3 app.py`
+~ Esc button to exit
 
 ## Application interface
 
