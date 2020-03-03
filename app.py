@@ -88,6 +88,8 @@ def emotion_detection():
 	l62.place(x = width + 160 , y = 600)
 	index += 1
 	show_frame()
+
+
 def save_image(index):
 	nface = image_extraction.nfaces
 	if nface == 1:
@@ -147,7 +149,7 @@ submit = Button(root,text = "Check it out!", command = emotion_detection, height
 
 
 
-submit.place(x = 950,y= 530)
+submit.place(x = 880,y= 440)
 # emotion_detection()
 
 root.mainloop()
