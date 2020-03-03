@@ -26,7 +26,7 @@ def predict(original_image):
 			prediction = model.predict(image)
 			maximum = max(prediction)
 			predicted_emotion = emotion_list[prediction.argmax()]
-			cv2.putText(highlighted_face_image, predicted_emotion, (x,y-20), cv2.FONT_HERSHEY_COMPLEX, 2, (0,0,255), 10)
+			cv2.putText(highlighted_face_image, predicted_emotion, (x,y-20), cv2.FONT_HERSHEY_PLAIN, 2, (0,0,0), 6)  #239,211,38
 	return image_extraction(highlighted_face_image, faces, nfaces, prediction, predicted_emotion,original_image)
 
 class image_extraction:
