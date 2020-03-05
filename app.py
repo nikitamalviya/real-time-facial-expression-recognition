@@ -1,13 +1,13 @@
-# Author                 :  Nikita Malviya
-# Start Date             :  13/Feb/19
+'''
+- Author      : Nikita Malviya
+- Start Date  : 13/Feb/19
+- Last Edited : 10/Apr/19 '''
 
 # Dependencies(Modules ) :  Tkinter -> to create interface
 #                           CV2 -> for image processing
 #                           PIL -> for image procesing
 #                           Glob -> to read file names from directory
 #                           uuid -> to create ubique file name
-
-# Last Edited            :  22/Apr/19
 
 import PIL
 from PIL import Image,ImageTk

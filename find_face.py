@@ -1,9 +1,7 @@
-# Author                 :  Nikita Malviya
-# Start Date             :  13/Feb/19
-
-# Dependencies(Modules ) :  cv2
-
-# Last Edited            :  15/Apr/19
+'''
+- Author      : Nikita Malviya
+- Start Date  : 13/Feb/19
+- Last Edited : 10/Apr/19 '''
 
 import cv2
 

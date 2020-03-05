@@ -1,10 +1,7 @@
-# Author                 :  Nikita Malviya
-# Start Date             :  13/Feb/19
-
-# Dependencies(Modules ) :  cv2
-# 							numpy
-
-# Last Edited            :  10/Apr/19
+'''
+- Author      : Nikita Malviya
+- Start Date  : 13/Feb/19
+- Last Edited : 10/Apr/19 '''
 
 import cv2
 import numpy as np
@@ -24,4 +21,3 @@ def preprocess_live_image(face_image, normalize = True):
 	if normalize:
 		face_image = preprocess_image(face_image)
 	return face_image
-
