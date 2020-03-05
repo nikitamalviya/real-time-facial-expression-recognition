@@ -25,5 +25,4 @@ Execute the following commands :
 ![UI](/image/screenshots/0_happy.png)
 ![UI](/image/screenshots/0_surprise.png)
 ![UI](/image/screenshots/0_sad.png)
-![UI](/image/screenshots/0_sad1.png)
 ![UI](/image/screenshots/0_fear.png)
