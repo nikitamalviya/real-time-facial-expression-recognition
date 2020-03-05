@@ -1,7 +1,7 @@
 numpy==1.18.1
 pandas==1.0.1
 opencv-python==3.4.0.14
-Pillow==5.1.0
+Pillow==6.2.0
 keras
 
 
