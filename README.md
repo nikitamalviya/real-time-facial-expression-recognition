@@ -11,7 +11,7 @@ This project detects the emotions in `real time`. It covers the following emotio
 ## Requirements
 Execute the following commands :
 - `sudo apt-get install python3-tk`
-- `python3 install -r requirements.txt`
+- `pip3 install -r requirements.txt`
 
 ## Execute the code
 `python3 app.py`
